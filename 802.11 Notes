@@ -1,0 +1,45 @@
+3.97 pairwise transient key (PTK): A value that is derived from the pairwise master key (PMK), Authenticator
+address (AA), Supplicant address (SPA), Anthenticator nonce (ANonce), and Supplicant nonce
+(SNonce) using the pseudo-random function (PRF) and that is split up into as many as five keys, i.e., temporal
+encryption key, two temporal message integrity code (MIC) keys, EAPOL-Key encryption key (KEK),
+EAPOL-Key confirmation key (KCK).
+
+8.5.1.2 Pairwise key hierarchy
+
+PRF- X(PMK, “Pairwise key expansion”,
+Min(AA,SPA) || Max(AA,SPA) ||
+Min(ANonce,SNonce) ||
+Max(ANonce,SNonce))
+
+Here, the following assumptions apply:
+— SNonce is a random or pseudo-random value contributed by the Supplicant; its value is taken when
+a PTK is instantiated and is sent to the PTK Authenticator.
+— ANonce is a random or pseudo-random value contributed by the Authenticator.
+— The PTK shall be derived from the PMK by
+PTK ? PRF-X(PMK, “Pairwise key expansion”, Min(AA,SPA) || Max(AA,SPA) ||
+Min(ANonce,SNonce) || Max(ANonce,SNonce))
+TKIP uses X = 512 and CCMP uses X = 384. The Min and Max operations for IEEE 802 addresses
+are with the address converted to a positive integer treating the first transmitted octet as the most significant
+octet of the integer. The Min and Max operations for nonces are with the nonces treated as
+positive integers converted as specified in 7.1.1.
+NOTE—The Authenticator and Supplicant normally derive a PTK only once per association. A Supplicant or
+an Authenticator may use the 4-Way Handshake to derive a new PTK. Both the Authenticator and Supplicant
+create a new nonce value for each 4-Way Handshake instance.
+— The KCK shall be computed as the first 128 bits (bits 0–127) of the PTK:
+KCK ? L(PTK, 0, 128)
+The KCK is used by IEEE 802.1X to provided data origin authenticity in the 4-Way Handshake and
+Group Key Handshake messages.
+— The KEK shall be computed as bits 128–255 of the PTK:
+KEK ? L(PTK, 128, 128)
+The KEK is used by the EAPOL-Key frames to provide confidentiality in the 4-Way Handshake and
+Group Key Handshake messages.
+— The temporal key (TK) shall be computed as bits 256–383 (for CCMP) or bits 256–511 (for TKIP)
+of the PTK:
+TK ? L(PTK, 256, 128) or
+TK ? L(PTK, 256, 256)
+The EAPOL-Key state machines (see 8.5.6 and 8.5.7) use the MLME-SETKEYS.request primitive to configure
+the temporal key into the STA. The STA uses the temporal key with the pairwise cipher suite; interpretation
+of this value is cipher-suite-specific.
+A PMK identifier is defined as
+PMKID = HMAC-SHA1-128(PMK, "PMK Name" || AA || SPA)
+Here, HMAC-SHA1-128 is the first 128 bits of the HMAC-SHA1 of its argument list.
