@@ -225,8 +225,10 @@
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSecret Key Guess"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"SecretKeyGuessActual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2Sleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				</Item>
 				<Item Name="Constant Array Size Sha-1.vi" Type="VI" URL="../Prototyping/Constant Array Size Sha-1.vi">
+					<Property Name="BuildSpec" Type="Str">{783EEED4-F267-4DC8-82CB-B4216EE0DDD9}</Property>
 					<Property Name="configString.guid" Type="Str">{04D0E34D-89D7-41ED-9790-E4EEEC490847}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{3037DB4B-0262-4C1E-86CE-4B79F972E5E3}resource=/Scan Clock;0;ReadMethodType=bool{3F88DB26-6D48-4735-8D02-A41EB69504EE}resource=/Chassis Temperature;0;ReadMethodType=i16{4CBD64D9-BCA9-4390-8D93-89468DEE9DA4}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"{9494D21E-CED1-4FA9-9F41-24ECE9842F9B}Actual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{B08A331F-CA1A-40EB-ACFB-11F88E1C7C59}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{D0DDAAFC-FEBA-46AF-B754-3FC86C0804D9}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{D3E17A5C-4534-4D68-B395-59E0295D6746}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSecret Key Guess"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"SecretKeyGuessActual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2Sleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+					<Property Name="NI.LV.FPGA.InterfaceBitfile" Type="Str">C:\Users\KP\Documents\GitHub\WPA2-Wireless-Network-LabVIEW-FPGA-Testing\FPGA Bitfiles\WPA2PentrationTe_FPGATarget_ConstantArraySiz_W7uPKNSQFtk.lvbitx</Property>
 				</Item>
 				<Item Name="SecretKeyGuess" Type="FPGA Memory Block">
 					<Property Name="FPGA.PersistentID" Type="Str">{9494D21E-CED1-4FA9-9F41-24ECE9842F9B}</Property>
@@ -281,120 +283,17 @@
 					<Property Name="configString.guid" Type="Str">{04D0E34D-89D7-41ED-9790-E4EEEC490847}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{3037DB4B-0262-4C1E-86CE-4B79F972E5E3}resource=/Scan Clock;0;ReadMethodType=bool{3F88DB26-6D48-4735-8D02-A41EB69504EE}resource=/Chassis Temperature;0;ReadMethodType=i16{4CBD64D9-BCA9-4390-8D93-89468DEE9DA4}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"{9494D21E-CED1-4FA9-9F41-24ECE9842F9B}Actual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{B08A331F-CA1A-40EB-ACFB-11F88E1C7C59}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{D0DDAAFC-FEBA-46AF-B754-3FC86C0804D9}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{D3E17A5C-4534-4D68-B395-59E0295D6746}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSecret Key Guess"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"SecretKeyGuessActual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2Sleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
 				</Item>
+				<Item Name="Fill block memory with Input Array.vi" Type="VI" URL="../Encryption/Sha-1 Sub VIs/Fill block memory with Input Array.vi">
+					<Property Name="configString.guid" Type="Str">{04D0E34D-89D7-41ED-9790-E4EEEC490847}resource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=bool{3037DB4B-0262-4C1E-86CE-4B79F972E5E3}resource=/Scan Clock;0;ReadMethodType=bool{3F88DB26-6D48-4735-8D02-A41EB69504EE}resource=/Chassis Temperature;0;ReadMethodType=i16{4CBD64D9-BCA9-4390-8D93-89468DEE9DA4}"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"{9494D21E-CED1-4FA9-9F41-24ECE9842F9B}Actual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2{B08A331F-CA1A-40EB-ACFB-11F88E1C7C59}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{D0DDAAFC-FEBA-46AF-B754-3FC86C0804D9}resource=/Sleep;0;ReadMethodType=bool;WriteMethodType=bool{D3E17A5C-4534-4D68-B395-59E0295D6746}resource=/System Reset;0;ReadMethodType=bool;WriteMethodType=boolcRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;Chassis Temperatureresource=/Chassis Temperature;0;ReadMethodType=i16cRIO-9074/Clk40/falsetrueFPGA_EXECUTION_MODEDEV_COMPUTER_SIM_IOFPGA_TARGET_CLASSCRIO_9074FPGA_TARGET_FAMILYSPARTAN3TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]FPGA LEDresource=/FPGA LED;0;ReadMethodType=bool;WriteMethodType=boolScan Clockresource=/Scan Clock;0;ReadMethodType=boolSecret Key Guess"ControlLogic=0;NumberOfElements=1029;Type=1;ReadArbs=Arbitrate if Multiple Requestors Only;ElementsPerRead=1;WriteArbs=Arbitrate if Multiple Requestors Only;ElementsPerWrite=1;Implementation=2;Secret Key Guess;DataType=1000800000000001000940050002553800000100000000000000;DisableOnOverflowUnderflow=FALSE"SecretKeyGuessActual Number of Elements=1024;ReadArbs=1;WriteArbs=1;Implementation=2;DataType=1000800000000001000940050002553800000100000000000000;InitDataHash=;DRAM Selection=;DRAM Max Outstanding Requests=64;DRAM Include Byte Enables=FALSE;DRAM Grant Time=0;Interface Configuration=Read A-Write B;Multiple Clock Domains=FALSE;Memory Latency=2Sleepresource=/Sleep;0;ReadMethodType=bool;WriteMethodType=boolSystem Resetresource=/System Reset;0;ReadMethodType=bool;WriteMethodType=bool</Property>
+				</Item>
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
+						<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
-					<Item Name="MIC Calculation" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">MIC Calculation</Property>
-						<Property Name="Comp.BitfileName" Type="Str">WPA2PentrationTe_FPGATarget_MICCalculation_cirvuK49qvc.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">timing</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">high</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">high</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">false</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">false</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/KP/Desktop/WPA2 Penetration Sha1 For FPGA/WPA2 Pentration Testing.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/RT CompactRIO Target/Chassis/FPGA Target/MIC Calculation.vi</Property>
-					</Item>
-					<Item Name="MIC Calculation_2" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">MIC Calculation_2</Property>
-						<Property Name="Comp.BitfileName" Type="Str">WPA2PentrationTe_FPGATarget_MICCalculation2_4NXguU9lYwg.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/KP/Desktop/WPA2 Penetration Sha1 For FPGA/WPA2 Pentration Testing.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref">/RT CompactRIO Target/Chassis/FPGA Target/MIC Calculation.vi</Property>
-					</Item>
-					<Item Name="Master constant values" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
-						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
-						<Property Name="BuildSpecDecription" Type="Str"></Property>
-						<Property Name="BuildSpecName" Type="Str">Master constant values</Property>
-						<Property Name="Comp.BitfileName" Type="Str">WPA2PentrationTe_FPGATarget_Masterconstantva_R8e-WQt3chQ.lvbitx</Property>
-						<Property Name="Comp.CustomXilinxParameters" Type="Str"></Property>
-						<Property Name="Comp.MaxFanout" Type="Int">-1</Property>
-						<Property Name="Comp.RandomSeed" Type="Bool">false</Property>
-						<Property Name="Comp.Version.Build" Type="Int">0</Property>
-						<Property Name="Comp.Version.Fix" Type="Int">0</Property>
-						<Property Name="Comp.Version.Major" Type="Int">1</Property>
-						<Property Name="Comp.Version.Minor" Type="Int">0</Property>
-						<Property Name="Comp.VersionAutoIncrement" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.EnableMultiThreading" Type="Bool">true</Property>
-						<Property Name="Comp.Vivado.OptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PhysOptDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.PlaceDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RouteDirective" Type="Str"></Property>
-						<Property Name="Comp.Vivado.RunPowerOpt" Type="Bool">false</Property>
-						<Property Name="Comp.Vivado.Strategy" Type="Str">Default</Property>
-						<Property Name="Comp.Xilinx.DesignStrategy" Type="Str">balanced</Property>
-						<Property Name="Comp.Xilinx.MapEffort" Type="Str">high(timing)</Property>
-						<Property Name="Comp.Xilinx.ParEffort" Type="Str">standard</Property>
-						<Property Name="Comp.Xilinx.SynthEffort" Type="Str">normal</Property>
-						<Property Name="Comp.Xilinx.SynthGoal" Type="Str">speed</Property>
-						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
-						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
-						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
-						<Property Name="ProjectPath" Type="Path">/C/Users/KP/Desktop/WPA2 Penetration Sha1 For FPGA/WPA2 Pentration Testing.lvproj</Property>
-						<Property Name="RelativePath" Type="Bool">true</Property>
-						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
-						<Property Name="SupportDownload" Type="Bool">true</Property>
-						<Property Name="SupportResourceEstimation" Type="Bool">true</Property>
-						<Property Name="TargetName" Type="Str">FPGA Target</Property>
-						<Property Name="TopLevelVI" Type="Ref"></Property>
-					</Item>
 					<Item Name="Constant Array Size Sha-1" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 						<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
 						<Property Name="BuildSpecDecription" Type="Str"></Property>
@@ -423,6 +322,8 @@
 						<Property Name="Comp.Xilinx.UseRecommended" Type="Bool">true</Property>
 						<Property Name="DefaultBuildSpec" Type="Bool">true</Property>
 						<Property Name="DestinationDirectory" Type="Path">FPGA Bitfiles</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePath" Type="Path">/C/Users/KP/Documents/GitHub/WPA2-Wireless-Network-LabVIEW-FPGA-Testing/FPGA Bitfiles/WPA2PentrationTe_FPGATarget_ConstantArraySiz_W7uPKNSQFtk.lvbitx</Property>
+						<Property Name="NI.LV.FPGA.LastCompiledBitfilePathRelativeToProject" Type="Path">FPGA Bitfiles/WPA2PentrationTe_FPGATarget_ConstantArraySiz_W7uPKNSQFtk.lvbitx</Property>
 						<Property Name="ProjectPath" Type="Path">/C/Users/KP/Documents/GitHub/WPA2-Wireless-Network-LabVIEW-FPGA-Testing/WPA2 Pentration Testing.lvproj</Property>
 						<Property Name="RelativePath" Type="Bool">true</Property>
 						<Property Name="RunWhenLoaded" Type="Bool">false</Property>
